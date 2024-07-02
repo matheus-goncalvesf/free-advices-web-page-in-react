@@ -10,27 +10,39 @@ body {
 }
 
 .container {
-  width: 50%;
-  min-width: 600px;
+  width: 80vw;
+  height: 60vh; 
   max-width: 600px;
-  text-align: center;
-  background-color: rgb(192, 62, 62);
+  max-height: 800px; 
+  background-color: #f0f0f0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(192, 62, 62, 80%);
+  box-shadow: 2px 3px;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 15px;
 
+}
+
+.container h1 {
+  text-align: center;
+  color: rgb(231, 225, 38);
 }
 
 
 .advice{
   color: aliceblue;
+  text-align: center;
 
 }
 
 .button{
+  margin-top: 20px;
   background-color: rgb(223, 156, 104);
   font-weight: bold;
   font-size: 1,5em;
-  
+  width: 100%;
+
 }
 
 button:hover{
