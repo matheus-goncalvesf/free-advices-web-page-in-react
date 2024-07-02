@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: bisque;
+
+}
+
+.container {
+  width: 50%;
+  min-width: 600px;
+  max-width: 600px;
+  text-align: center;
+  background-color: rgb(192, 62, 62);
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+
+.advice{
+  color: aliceblue;
+
+}
+
+.button{
+  background-color: rgb(223, 156, 104);
+  font-weight: bold;
+  font-size: 1,5em;
+  
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(211, 131, 69);
+  border: none;
+}
